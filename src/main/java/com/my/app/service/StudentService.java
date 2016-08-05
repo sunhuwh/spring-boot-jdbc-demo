@@ -7,5 +7,7 @@ public interface StudentService {
     int save(String name);
     
     Student findById(int id);
+
+    Student findByName(String name);
     
 }

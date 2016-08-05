@@ -8,8 +8,8 @@ import com.my.app.domain.Student;
 import com.my.app.service.StudentService;
 
 @RestController
-@RequestMapping
-public class IndexController {
+@RequestMapping("/student")
+public class StudentController {
 
     @Autowired
     private StudentService studentService;
